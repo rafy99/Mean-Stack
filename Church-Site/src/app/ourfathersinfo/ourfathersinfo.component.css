@@ -1,0 +1,11 @@
+#page-header {
+    height: 350px;
+    background-position: 0 -360px;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+  }
+.r{
+  width: 100%;
+  overflow-x:hidden ;
+}

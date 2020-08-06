@@ -1,0 +1,7 @@
+.carousel-item {
+    height: 450px;
+  } 
+  .r{
+    width: 100%;
+    overflow-x: hidden;
+  }

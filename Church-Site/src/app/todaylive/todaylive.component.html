@@ -1,0 +1,27 @@
+<div class="r">
+<div id="page-header" 
+data-aos="flip-up" 
+[style]="st">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1 style="margin-top: 200px;color: white;" 
+          data-aos="slide-right"
+          >{{ PT }}</h1>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="row mb-5 mt-5" 
+data-aos="flip-up" 
+*ngFor="let l of TitleArr;let i=index;">
+  <h1 class="text-center col-sm col-md-6 offset-md-3"
+  data-aos="slide-right" 
+  >{{ l }}</h1>
+  <div class="col-sm col-md-6 offset-md-3 card">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ryb8bXVntbY" allowfullscreen></iframe>
+      </div>
+  </div>
+</div>
+</div>

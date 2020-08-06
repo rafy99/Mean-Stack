@@ -1,0 +1,25 @@
+.fr-handle{
+    margin-top: 150px;
+    padding: 25px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.lab{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+input,select{
+    height: 50px;
+}
+.btn-c{
+    margin: auto;
+}
+input[type="text"],select,textarea{
+    font-size: 20px;
+    color: black;
+}
+.cont{
+    width: 100%;
+    overflow-x: hidden;
+}
