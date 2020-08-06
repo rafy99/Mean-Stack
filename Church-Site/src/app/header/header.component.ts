@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  LogoImgSrc:string='assets/images/homepage/لوجو الكنيسة.jpeg';
+  LogoImgSrc:string='assets/images/logo/لوجو الكنيسة.jpg';
   LogoImgSrcAlt:string='كنيسة السيدة العذراء و البابا كيرلس عمود الدين';
   LogoImgSrcStyle:string='width: 70px;height: 70px;';
 
@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
     'آباء الكنيسة',
     'بث مباشر',
     'للمزيد',
-    'مواضيع متنوعة'
+    'حجز القداس و العضوية الكنسية'
   ];
 
   DropDownItems:string[]=[

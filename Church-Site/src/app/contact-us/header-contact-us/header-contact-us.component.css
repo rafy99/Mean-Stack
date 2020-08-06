@@ -1,0 +1,12 @@
+#page-header {
+    height: 200px;
+    background-color: #CCC;
+    background-position: 0 -360px;
+
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+  }
+  .r{
+    width: 100%;
+    overflow-x: hidden;
+  }

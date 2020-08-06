@@ -5,9 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './live-intro.component.html',
   styleUrls: ['./live-intro.component.css']
 })
-export class LiveIntroComponent implements OnInit {
+export class LiveIntroComponent implements OnInit {/*  */
   VedTitle:string='البث المباشر';
-  St:string="background: url('assets/images/homepage/media.jpg');background-attachment: fixed;background-repeat: no-repeat;";
+  /* St:string="background: url('assets/images/logo/لوجو الكنيسة.jpg');background-attachment: fixed;background-repeat: no-repeat;"; */
   constructor() { }
 
   ngOnInit(): void {

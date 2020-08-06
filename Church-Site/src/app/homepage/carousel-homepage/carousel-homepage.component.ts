@@ -12,9 +12,9 @@ export class CarouselHomepageComponent implements OnInit {
   ngOnInit(): void {
   }
   StyleCor:string[]=[
-    "background: url('assets/images/carousel/im1.JPG');background-size: cover;",
-    "background: url('assets/images/carousel/im2.JPG');background-size: cover;",
-    "background: url('assets/images/carousel/im3.JPG');background-size: cover;"
+    "background: url('assets/images/church-images/الكنيسة بزاوية.jpg');background-size: cover;",
+    "background: url('assets/images/church-images/صورة القبة الوسط.jpg');background-size: cover;",
+    "background: url('assets/images/church-images/مذبح البابا كيرلس عامود الدين.jpg');background-size: cover;"
   ];
 
   StyleTextOnCor:string="font-weight: bold;color: white;";

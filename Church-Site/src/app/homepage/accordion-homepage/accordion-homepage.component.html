@@ -3,18 +3,18 @@
     <div id="accordion" class="mt-5">
       <div class="card text-center" data-aos="slide-right" 
       >
-        <div class="card-header">
+        <div class="card-header" [style]="accoroddstyle()">
           <h5>
             <a href="#collapse1" data-parent="#accordion"
              data-toggle="collapse"
               style="text-decoration: none;"
               >
-            {{ AccordionObj[0].title }}
+            <p [style]="accoroddcolor()">{{ AccordionObj[0].title }}</p>
             </a>
           </h5>
         </div>
         <div id="collapse1" class="collapse show">
-          <div class="card-body text-justify">
+          <div class="card-body text-justify" >
             {{ AccordionObj[0].body }}
           </div>
         </div>
@@ -22,7 +22,7 @@
       <div class="card text-center"
       data-aos="slide-left" 
       >
-        <div class="card-header">
+        <div class="card-header" [style]="accorevenstyle()">
           <h5>
             <a style="text-decoration: none;"
              href="#collapse2" data-parent="#accordion"
@@ -41,9 +41,9 @@
       <div class="card text-center"
       data-aos="slide-right"  
       >
-        <div class="card-header">
+        <div class="card-header" [style]="accoroddstyle()">
           <h5>
-            <a [style]="LinkStyle()"
+            <a [style]="LinkStyle1()"
              href="#collapse3" data-parent="#accordion"
               data-toggle="collapse"
               >
@@ -53,23 +53,24 @@
         </div>
         <div id="collapse3" class="collapse">
           <div class="card-body text-justify">
-            <div >
+            <div>تحت الانشاء</div>
+            <!-- <div >
               <strong>{{ sr[0].title }}</strong>
               <p>{{ sr[0].body }}</p>
             </div>
             <div >
               <strong>{{ sr[1].title }}</strong>
               <p>{{ sr[1].body }}</p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
       <div class="card text-center"
       data-aos="slide-left" 
       >
-        <div class="card-header">
+        <div class="card-header" [style]="accorevenstyle()">
           <h5>
-            <a [style]="LinkStyle()"
+            <a [style]="LinkStyle()" 
              href="#collapse4" data-parent="#accordion"
               data-toggle="collapse"
               >
@@ -86,9 +87,9 @@
       <div class="card text-center"
       data-aos="slide-right" 
       >
-        <div class="card-header">
+        <div class="card-header" [style]="accoroddstyle()">
           <h5>
-            <a [style]="LinkStyle()"
+            <a [style]="LinkStyle1()"
              href="#collapse5" data-parent="#accordion"
               data-toggle="collapse"
               >
@@ -99,7 +100,8 @@
         <div id="collapse5" class="collapse">
           <div class="card-body text-justify">
             <div >
-              <strong>{{ Katamaras[0].title }}</strong>
+              <p>تحت الانشاء</p>
+<!--               <strong>{{ Katamaras[0].title }}</strong>
               <p >{{ Katamaras[0].title }}</p>
               <strong>{{ Katamaras[1].title }}</strong>
               <p >{{ Katamaras[1].title }}</p>
@@ -118,7 +120,7 @@
               <strong>{{ Katamaras[8].title }}</strong>
               <p >{{ Katamaras[8].title }}</p>
               <strong>{{ Katamaras[9].title }}</strong>
-              <p >{{ Katamaras[9].title }}</p>
+              <p >{{ Katamaras[9].title }}</p> -->
             </div>
           </div>
         </div>
@@ -126,7 +128,7 @@
       <div class="card text-center"
       data-aos="slide-left" 
       >
-        <div class="card-header">
+        <div class="card-header" [style]="accorevenstyle()">
           <h5>
             <a [style]="LinkStyle()"
              href="#collapse6" data-parent="#accordion"

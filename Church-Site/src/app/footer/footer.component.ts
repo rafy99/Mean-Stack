@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
     background-color: black;
     width: 100%;
 }
-
+/* :host{
+  font-family:"Trebuchet MS", Helvetica, sans-serif
+} */
   `]
 })
 export class FooterComponent implements OnInit {

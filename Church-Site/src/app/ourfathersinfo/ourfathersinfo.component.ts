@@ -6,11 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ourfathersinfo.component.css']
 })
 export class OurfathersinfoComponent implements OnInit {
-  Path1:string='assets/images/ourfathersinfo/fr-ziko.jpeg';
-  Path2:string='assets/images/ourfathersinfo/fr-marcos.jpeg';
-  Path3:string='assets/images/ourfathersinfo/you2nss.PNG';
-  Path4:string='assets/images/ourfathersinfo/abouna youhanna.PNG';
-  st:string="background: url('assets/images/ourfathersinfo/im2.jpg');background-attachment: fixed;";
+  Path1:string='assets/images/fathers/ابونا زكريا.jpeg';
+  Path2:string='assets/images/fathers/ابونا مرقس.jpeg';
+  Path3:string='assets/images/fathers/ابونا يؤن.PNG';
+  Path4:string='assets/images/fathers/ابونا يوحنا.PNG';
+  st:string="background: url('assets/images/fathers/ابونا بيشوي.jpg');background-attachment: fixed;background-repeat: no-repeat;background-size: cover;";
   Paragraphs:string[]=[
     `
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla facilis, sequi excepturi, quisquam, dignissimos

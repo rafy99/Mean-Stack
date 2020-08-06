@@ -17,6 +17,13 @@ import { ChurchVisionHomepageComponent } from './homepage/church-vision-homepage
 import { LiveIntroComponent } from './homepage/live-intro/live-intro.component';
 import { AccordionHomepageComponent } from './homepage/accordion-homepage/accordion-homepage.component';
 import { TestimonialsHomepageComponent } from './homepage/testimonials-homepage/testimonials-homepage.component';
+import { DivineLetorogyMembershipComponent } from './divine-letorogy-membership/divine-letorogy-membership.component';
+import { MembershipComponent } from './divine-letorogy-membership/membership/membership.component';
+import { DivineComponent } from './divine-letorogy-membership/divine/divine.component';
+import { FormsModule } from '@angular/forms';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { HeaderContactUsComponent } from './contact-us/header-contact-us/header-contact-us.component';
+import { MainContactUsComponent } from './contact-us/main-contact-us/main-contact-us.component';
 
 @NgModule({
   declarations: [
@@ -34,11 +41,18 @@ import { TestimonialsHomepageComponent } from './homepage/testimonials-homepage/
     ChurchVisionHomepageComponent,
     LiveIntroComponent,
     AccordionHomepageComponent,
-    TestimonialsHomepageComponent
+    TestimonialsHomepageComponent,
+    DivineLetorogyMembershipComponent,
+    MembershipComponent,
+    DivineComponent,
+    ContactUsComponent,
+    HeaderContactUsComponent,
+    MainContactUsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -12,7 +12,7 @@ export class TodayliveComponent implements OnInit {
     'بث للنهضة',
     'بث للاجتماع'
   ];
-  st:string="background: url('assets/images/ourfathersinfo/im2.jpg');background-attachment: fixed;height: 450px;";
+  st:string="background: url('assets/images/church-images/مذبح السيدة العذراء.jpg');background-attachment: fixed;height: 450px;";
   constructor() { }
 
   ngOnInit(): void {

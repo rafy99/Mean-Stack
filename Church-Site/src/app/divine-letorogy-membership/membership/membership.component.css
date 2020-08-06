@@ -1,0 +1,11 @@
+.r{
+    width: 100%;
+    overflow-x: hidden;
+}
+:host{
+    text-align: right;
+    /* font-family:"Trebuchet MS", Helvetica, sans-serif; */
+}
+input{
+    background-color: #EFEFEF;
+}

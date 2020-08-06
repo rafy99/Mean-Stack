@@ -8,3 +8,6 @@
 .navbar .nav-item.active {
   border-left: #444 3px solid;
 }
+/* :host{
+  font-family:"Trebuchet MS", Helvetica, sans-serif
+} */

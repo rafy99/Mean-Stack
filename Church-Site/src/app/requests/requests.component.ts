@@ -6,12 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./requests.component.css']
 })
 export class RequestsComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit(): void {
   }
 ContStyle(){
-  return "background: linear-gradient(rgba(0, 0, 54, 0.6),rgba(0, 0, 54, 0.6)), url('assets/images/carousel/im1.JPG');background-size: cover;";
+  return "background: linear-gradient(rgba(0, 0, 54, 0.6),rgba(0, 0, 54, 0.6)), url('assets/images/church-images/الكنيسة بزاوية.jpg');background-size: cover;";
 }
 }

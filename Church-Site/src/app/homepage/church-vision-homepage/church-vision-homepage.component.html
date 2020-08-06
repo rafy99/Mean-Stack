@@ -1,16 +1,17 @@
 <div class="r">
-<div [class]="JumbClass()">
-    <h1 class="display-4 text-dark" data-aos="fade-up" 
+<div [class]="JumbClass()" [style]="carostyle()"
+data-aos="zoom-out-down"
+>
+    <h1 class="display-4 text-dark" 
     >{{ ChurchVisionObject.title }}</h1>
     <p class="lead text-dark"></p>
     <hr>
     <div id="last-live"></div>
-    <p class="text-dark"
-    data-aos="fade-down-left" 
+    <p class="text-dark"      
     >{{  ChurchVisionObject.MainVision  }}</p>
-    <button class="btn btn-primary btn-lg" 
-    data-aos="zoom-out-up" 
-    data-toggle="collapse" data-target="#collapse-btn-1" >عرض المزيد</button>
+    <button class="btn btn-primary btn-lg"      
+    data-toggle="collapse" data-target="#collapse-btn-1" [style]="btnstyle()">عرض المزيد
+    </button>
       <div class="collapse " id="collapse-btn-1">
         <div class="card " style="background-color: #D3D3D3;" >
           <div class="card-body" >

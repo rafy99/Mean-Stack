@@ -1,0 +1,26 @@
+.r{
+    width: 100%;
+    overflow-x: hidden;
+}
+:host{
+    text-align: right;
+}
+.content{
+    border: 1px solid #ccc;
+}
+.popup{
+    text-align: center;
+    height: 90px;
+    background-color: green;
+    color:white;
+    border: 2px solid #CCC;
+}
+.sp{
+    color: red;
+}
+input , select option{
+    background-color: #EFEFEF;
+}
+/* :host{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+} */

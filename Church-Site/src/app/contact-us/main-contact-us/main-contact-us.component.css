@@ -1,0 +1,6 @@
+input , textarea{
+    background-color: #EFEFEF;
+}
+:host{
+    text-align: right;
+}
